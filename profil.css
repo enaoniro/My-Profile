@@ -1,0 +1,125 @@
+main {
+  width: 1800px;
+  border-right:rgb(178, 184, 163) 10px solid ;
+  border-bottom:rgb(178, 184, 163)  10px solid  ;
+  border-left: whitesmoke 10px solid;
+  
+  background-color:whitesmoke;
+}
+#solbolum {
+  width: 755px;
+  height: 1295px;
+  background-color: whitesmoke;
+  margin: 58px;
+  box-sizing: border-box;
+  
+}
+#sagbolum {
+  width: 995px;
+  height: 1px;
+  float: right;
+  background-color: rgb(178, 184, 163);
+
+
+
+  
+
+  box-sizing: border-box;
+}
+
+
+#linkler {
+
+  width: 950px;
+  height: 50px;
+  box-sizing: border-box;
+  
+  position: absolute;
+  top: 77px;
+  left: 600px;
+  right: 0px;
+ 
+  font-size: 28px;
+  color: rgb(10, 4, 60);
+ 
+
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.liste {
+    position: relative;
+    display:block;
+    margin:5px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border: 1px, 0px,0px,0px;
+    background-color: white;
+    padding-top: 10px;
+    padding-left: 10px;
+    
+  
+
+  
+  top: 47px;
+
+  left: 250px;
+ 
+  width: 900px;
+  height: 275px;
+  
+
+
+
+  color:rgb(3, 80, 111);
+}
+.liste:nth-of-type(3) {
+    
+    
+}
+.liste:nth-of-type(even) {
+  border-right: teal 10px solid;
+
+}
+.liste:nth-of-type(odd) {
+    border-right: rgb(244, 199, 171) 10px solid ;
+}
+
+#fotobox {
+  position: absolute;
+  background-color:white;
+  top: 60px;
+  width: 750px;
+  height: 1250px;
+  border-left:rgb(178, 184, 163) 10px solid  ;
+  
+
+  left: 63px;
+}
+
+#foto {
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  left: 75px;
+  top: 50px;
+  padding:0 50px 50px;
+  
+}
+#kisisel {
+  position: absolute;
+  box-sizing: border-box;
+  border: 1px solid;
+  width: 600px;
+  height: 600px;
+  top: 550px;
+  
+  margin: 70px;
+  padding-top: 50px;
+  font-size: 28px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-color: ;
+  color: rgb(10, 4, 60);
+  text-align: center;
+  list-style-type: none;
+}

@@ -1,0 +1,131 @@
+main {
+  display: flex;
+  width: 1800px;
+  height: 1250px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+
+  justify-content: space-between;
+  margin: 75px 0 0;
+}
+header {
+  width: 1800px;
+  height: 100px;
+  background-color: rgb(3, 80, 111);
+}
+footer {
+  width: 1800px;
+  height: 100px;
+  background-color: rgb(3, 80, 111);
+}
+
+#linkler {
+  height: auto;
+  box-sizing: border-box;
+}
+.liste {
+  display: block;
+  margin: 5px 30px 30px 30px;
+  box-sizing: border-box;
+  background-color: white;
+  height: 275px;
+  width: 800px;
+  color: rgb(3, 80, 111);
+}
+.liste:nth-of-type(3) {
+}
+.liste:nth-of-type(even) {
+  border-left: teal 10px solid;
+}
+.liste:nth-of-type(odd) {
+  border-left: rgb(244, 199, 171) 10px solid;
+}
+
+td:first-child {
+  width: 150px;
+
+  text-transform: uppercase;
+  font-size: 24px;
+}
+td:last-child {
+  padding: 20px;
+  font-size: 14px;
+}
+
+.ictablo {
+  width: 600px;
+  background-color: whitesmoke;
+}
+.ictablo td {
+  text-transform: capitalize;
+  font-size: 14px;
+  width: auto;
+  text-align: center;
+  border-top: white 5px solid;
+}
+
+#solbolum {
+  display: flex;
+  width: 50%;
+  height: 1702px;
+}
+#sagbolum {
+  display: absolute;
+  right: 0px;
+  bottom: 0px;
+  width: 900px;
+  height: 1250px;
+  background-color: whitesmoke;
+}
+
+#foto {
+  box-sizing: content-box;
+  width: 750px;
+  height: 580px;
+  margin-top: 0px;
+  margin-bottom: 50px;
+  margin-left: 25px;
+  background-color: white;
+  padding: 0px 50px 50px 50px;
+
+}
+
+#kisisel {
+  box-sizing: border-box;
+  width: 800px;
+  height: 480px;
+  font-size: 32px;
+  text-align: center;
+  margin: auto;
+  background-color: white;
+  color:rgb(3, 80, 111) ;
+}
+ul {
+  list-style-type: none;
+  text-transform: capitalize;
+  margin-top: ;
+}
+h1 {
+  margin-top: 40px;
+}
+.logocss {
+  width: 600px;
+  height: 50px;
+  background-color: #264de4;
+  margin: auto;
+  margin-top: 5px;
+  border-radius: 325px;
+}
+.logohtml {
+  width: 600px;
+  height: 50px;
+  background-color: #e34c26;
+  margin: auto;
+  border-radius: 325px;
+}
+#ickutu {
+  width: 200px;
+  height: 50px;
+  background-color: white;
+  margin-left: 400px;
+}

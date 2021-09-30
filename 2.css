@@ -1,3 +1,6 @@
+body {
+  margin:4%;
+}
 main {
   display: flex;
   width: 1800px;
@@ -8,15 +11,12 @@ main {
   justify-content: space-between;
   margin: 75px 0 0;
 }
-header {
+header ,footer{
+  
   width: 1800px;
   height: 100px;
   background-color: rgb(3, 80, 111);
-}
-footer {
-  width: 1800px;
-  height: 100px;
-  background-color: rgb(3, 80, 111);
+
 }
 
 #linkler {
@@ -32,8 +32,7 @@ footer {
   width: 800px;
   color: rgb(3, 80, 111);
 }
-.liste:nth-of-type(3) {
-}
+
 .liste:nth-of-type(even) {
   border-left: teal 10px solid;
 }
@@ -43,25 +42,28 @@ footer {
 
 td:first-child {
   width: 150px;
-
-  text-transform: uppercase;
+ text-transform: uppercase;
   font-size: 24px;
+  border-top-style: outset;
+  
 }
 td:last-child {
   padding: 20px;
   font-size: 14px;
+  
 }
 
 .ictablo {
   width: 600px;
   background-color: whitesmoke;
 }
-.ictablo td {
+.ictablo td{
   text-transform: capitalize;
   font-size: 14px;
   width: auto;
   text-align: center;
   border-top: white 5px solid;
+  
 }
 
 #solbolum {
@@ -87,7 +89,7 @@ td:last-child {
   margin-left: 25px;
   background-color: white;
   padding: 0px 50px 50px 50px;
-
+  
 }
 
 #kisisel {
@@ -98,34 +100,35 @@ td:last-child {
   text-align: center;
   margin: auto;
   background-color: white;
-  color:rgb(3, 80, 111) ;
+  color: rgb(3, 80, 111);
+  border-style: outset;
 }
 ul {
   list-style-type: none;
   text-transform: capitalize;
-  margin-top: ;
+
 }
 h1 {
   margin-top: 40px;
 }
 .logocss {
-  width: 600px;
-  height: 50px;
+  width: 400px;
+  height: 20px;
   background-color: #264de4;
   margin: auto;
   margin-top: 5px;
   border-radius: 325px;
 }
 .logohtml {
-  width: 600px;
-  height: 50px;
+  width: 400px;
+  height: 20px;
   background-color: #e34c26;
   margin: auto;
   border-radius: 325px;
 }
 #ickutu {
   width: 200px;
-  height: 50px;
+  height: 20px;
   background-color: white;
-  margin-left: 400px;
+  margin-left: 200px;
 }

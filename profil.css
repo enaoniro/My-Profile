@@ -1,11 +1,10 @@
 main {
   width: 1800px;
   border-right: rgb(244, 199, 171) 10px solid;
-  border-bottom: rgb(244, 199, 171)10px solid;
-  border-left:rgb(178, 184, 163) 1px solid;
-  border-top:rgb(178, 184, 163) 1px solid; 
-  background-color:teal;
- 
+  border-bottom: rgb(244, 199, 171) 10px solid;
+  border-left: rgb(178, 184, 163) 1px solid;
+  border-top: rgb(178, 184, 163) 1px solid;
+  background-color: teal;
 }
 #solbolum {
   width: 755px;
@@ -13,19 +12,15 @@ main {
   background-color: whitesmoke;
   margin: 58px;
   box-sizing: border-box;
- 
 }
-#sagust{
-  
+#sagust {
   width: 900px;
   height: 50px;
-  background-color:white;
-  
+  background-color: white;
+
   margin-top: 60px;
   margin-left: 835px;
 }
-
-
 
 #linkler {
   width: 950px;
@@ -49,7 +44,6 @@ main {
   padding-left: 10px;
 
   font-size: 14px;
-  vertical-align: bottom;
   color: rgb(10, 4, 60);
 
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
@@ -68,43 +62,34 @@ main {
 
 .liste:nth-of-type(even) {
   border-left: rgb(244, 199, 171) 10px solid;
-  
-  
 }
 .liste:nth-of-type(odd) {
   border-left: rgb(244, 199, 171) 10px solid;
-  
-  
 }
 
 td:first-child {
-    width: 150px;
-    border-top:rgb(178, 184, 163) 1px solid ;
-    text-transform: uppercase;
-    letter-spacing: 5px;
-
-    
+  width: 150px;
+  border-top: rgb(178, 184, 163) 1px solid;
+  text-transform: uppercase;
+  letter-spacing: 5px;
 }
 td:last-child {
-    border-left: rgb(178, 184, 163) 1px solid;
-    padding: 20px;
-    text-transform: capitalize;
-    line-height: 30px;
-    word-spacing: 5px;
-    
+  border-left: rgb(178, 184, 163) 1px solid;
+  padding: 20px;
+  text-transform: capitalize;
+  line-height: 30px;
+  word-spacing: 5px;
 }
 .ictablo {
   width: 650px;
   background-color: whitesmoke;
-  
-  
 }
 .ictablo td {
   text-transform: capitalize;
   width: auto;
   text-align: center;
-  border-right:rgb(178, 184, 163) 1px solid;
-  border-top:rgb(178, 184, 163) 1px solid ;
+  border-right: rgb(178, 184, 163) 1px solid;
+  border-top: rgb(178, 184, 163) 1px solid;
 }
 #fotobox {
   position: absolute;
@@ -124,20 +109,19 @@ td:last-child {
   height: 570px;
   left: 70px;
   top: 60px;
-  padding:70px;
-  border-bottom:rgb(178, 184, 163) 1px solid;
-  border-top:rgb(178, 184, 163) 10px solid ;
-  border-left:whitesmoke 10px solid ;
-  border-right:whitesmoke  10px solid;
-  
+  padding: 70px;
+  border-bottom: rgb(178, 184, 163) 1px solid;
+  border-top: rgb(178, 184, 163) 10px solid;
+  border-left: whitesmoke 10px solid;
+  border-right: whitesmoke 10px solid;
 }
 #kisisel {
   position: absolute;
   box-sizing: border-box;
   border-bottom: rgb(178, 184, 163) 10px solid;
   border-right: whitesmoke 10px solid;
-  border-left:whitesmoke 10px solid ;
-  border-top:whitesmoke 1px solid ;
+  border-left: whitesmoke 10px solid;
+  border-top: whitesmoke 1px solid;
   width: 630px;
   height: 400px;
   top: 600px;
@@ -148,7 +132,6 @@ td:last-child {
   font-size: 28px;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  background-color: ;
   color: rgb(10, 4, 60);
   text-align: center;
   list-style-type: none;
